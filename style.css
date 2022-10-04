@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color:#f8f4ed;
+    color:rgb(0, 0, 0);
+}
+li{
+    display: inline;
+    padding: 1.2em;
+    font-size: small;
+    font-weight:bold;
+}
+#logo {
+    display: inline;
+    margin-left: 1.8em;
+    font-size: large;
+}
+.bar{
+    margin: 2em 0 2em 0;
+}
+
+
+.bottom{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.video-box video{
+    width: 45em;
+    height: auto;
+    margin: 0em;
+    border-radius: 1em;
+    
+}
+* {
+    box-sizing: border-box;
+    
+  }
+  form{
+    float: right;
+    width: 600px;
+    position: relative;
+    top: -2.9em;
+    
+    
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: .5em;
+  }
+  
+  form.example button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background:wheat;
+    color: black;
+    font-size: 17px;
+    border: 1px solid grey;
+    border: none; 
+    cursor: pointer;
+    border-radius: .5em;
+    margin-right: 7.1em;
+    position: relative;
+    top: -41px;
+  }
+  
+  form.example button:hover {
+    background: #f7cd7f;
+  }
+  
+.v-label{
+    float: right;
+    margin-right: 5em;
+}
+.v-label h4{
+    display: inline;
+    padding: .7em; 
+    font-weight: normal;
+    font-size: small;
+}
+.image h4{
+    display: inline;
+    padding: .7em;
+    font-size: .7em;
+    font-weight: bold;
+    position: relative;
+    top:-3em;
+}
+
+.image img{
+    width: 3em;
+    height: 3em;
+    margin-left: 1em;
+    border-radius: .8em;
+    margin: 3em 0 0 1em ;
+}
+.related-videos iframe{
+    border-radius: 1em;
+    width: 20em;
+    height: 10em;
+    border: none;
+}
+section.right{
+    margin-right: 0em;
+    margin-left: 1em;
+}
+.related-videos h4{
+    display: inline; 
+    font-size: .1em;
+    font-weight: normal;
+    position: relative;
+    left: 2em;
+}
+.related-videos h3{
+    position: relative;
+    left: .2em;
+}
+
+section.left{
+    margin-left: 4em;
+}
